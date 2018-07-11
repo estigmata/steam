@@ -1,0 +1,85 @@
+.sidebar {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+
+.sidebar li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.sidebar li a {
+  color: #66c0f4;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.sidebar li a:hover {
+  color: #fff;
+}
+
+.sidebar li > .title {
+  color: #c6d4df;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.icon {
+  background-image: url('../images/icons.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+}
+
+.icon.friends {
+  background-position: 0 0;
+}
+
+.icon.curators {
+  background-position: -16px 0;
+}
+
+.icon.tags {
+  background-position: -32px 0;
+}
+
+.icon.queue {
+  background-position: -48px 0;
+}
+
+.icon.queue-new {
+  background-position: -64px 0;
+}
+
+.icon.top-seller {
+  background-position: -80px 0;
+}
+
+.icon.update {
+  background-position: -96px 0;
+}
+
+.icon.recent {
+  background-position: -112px 0;
+}
+
+.icon.upcoming {
+  background-position: -128px 0;
+}
+
+.icon.discounts {
+  background-position: -144px 0;
+}
+
+.icon.vr {
+  background-position: -160px 0;
+}
+
+.icon.controller {
+  background-position: -176px 0;
+}

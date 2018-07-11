@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Duru+Sans';
+@import './columns.css';
+@import './header.css';
+@import './sidebar.css';
+@import './storebar.css';
+
+body,
+html {
+  height: 100vh;
+  font-family: 'Duru Sans';
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  background: url('../images/background.png') top center no-repeat;
+  background-color: #1b2838;
+  padding: 30px 0;
+}
+
+.main-container img {
+  max-width: 100%;
+}
+
+.main-container > .container {
+  padding: 0 60px;
+}
